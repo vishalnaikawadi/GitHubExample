@@ -13,10 +13,16 @@ public class MainActivity extends AppCompatActivity {
         //added by vishal
 
         int c = sum(5,10);
+        int d = subtract(5,10);
         System.out.println("sum : "+c);
+        System.out.println("sub : "+d);
     }
 
     public int sum(int a,int b){
         return a+b;
+    }
+    
+    public int subtract(int a,int b){
+        return a-b;
     }
 }
