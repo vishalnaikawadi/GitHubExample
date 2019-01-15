@@ -11,5 +11,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //added by vishal
+
+        int c = sum(5,10);
+        System.out.println("sum : "+c);
+    }
+
+    public int sum(int a,int b){
+        return a+b;
     }
 }
