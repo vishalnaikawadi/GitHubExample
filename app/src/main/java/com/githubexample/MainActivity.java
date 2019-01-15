@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //added by vishal
+        //one more comment added by vishal
 
         int c = sum(5,10);
         int d = subtract(5,10);
